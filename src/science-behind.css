@@ -1,0 +1,306 @@
+/* science-behind.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.science-behind-page {
+  min-height: 100vh; /* To cover full viewport height */
+  display: grid;
+  place-items: center;
+  background: url('ZenzetaVec21005_generated.jpg') repeat;
+  font-family: 'Roboto', sans-serif;
+  padding: 60px 0; /* Vertical padding */
+  box-sizing: border-box;
+}
+
+/* Title Container Styling */
+.title-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2e2e;
+  /* background: #f8f8f8; */
+  background: linear-gradient(125deg, #dddcdc, #fcfcfc, #e4e4e4);
+  border-radius: 16px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  animation: fadeIn 1s ease-out; /* Smooth fade-in effect */
+}
+
+.title-container h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #4a90e2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  animation: slideUp 0.8s ease-out; /* Slide-up effect for the title */
+}
+
+/* Animation for Title */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Container with standout styling */
+.container {
+  max-width: 900px;
+  width: 100vw;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: linear-gradient(145deg, #e2e2e2, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  animation: fadeIn 1s ease-out;
+  margin-bottom: 40px; /* Add margin at the bottom */
+}
+
+/* Category Styling */
+.category-title, .category-item {
+  font-size: 1.4em;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 16px;
+  background: linear-gradient(135deg, #3a3f96, #707bff);
+  color: #f9f9f9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Subcategory Styling */
+.subcategory-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 14px;
+  background: linear-gradient(135deg, #5d72c3, #5fc0d1);
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  margin-left: 20px; /* Indentation for subcategories */
+}
+
+/* Subsubcategory Styling */
+.subsub-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 11px;
+  background: linear-gradient(135deg, #5fc0d1, #5d72c3);
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 11px 0;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin-left: 35px; /* Further indentation for subsubcategories */
+}
+
+.category-title:hover, .category-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  background-color: #4a6dcf;
+}
+
+.subcategory-title:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  background-color: #45b7c5;
+}
+
+.subsub-title:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  background-color: #45b7c5;
+}
+
+
+/* Updated Carousel Styling */
+.science-page-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  animation: fadeIn 1s ease-out;
+}
+
+/* Modern Arrow Buttons */
+.science-page-carousel-button {
+  background: none;
+  color: #2f3137;
+  border: none;
+  font-size: 2.2em; /* Large size for emphasis */
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.science-page-carousel-button:hover {
+  color: #3f78b8; /* Slight color shift on hover */
+  transform: scale(1.2); /* Slightly larger on hover */
+}
+
+.science-page-carousel-button:focus {
+  outline: none;
+}
+
+/* Styling for the Left Arrow */
+.science-page-carousel-button.left {
+  transform: rotate(180deg); /* Flip the right arrow to left */
+}
+
+/* Carousel Slide Styling */
+.science-page-carousel-slide {
+  padding: 24px;
+  font-size: 1em;
+  color: #333;
+  background: linear-gradient(145deg, #f5f5f5, #ebebeb);
+  border-radius: 16px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 320px;
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  transform: scale(0.95); /* Initial scale for animation */
+  will-change: transform; /* Hint to the browser for optimizations */
+}
+
+.science-page-carousel-slide:hover {
+  transform: scale(1.005);
+  background: linear-gradient(145deg, #ffffff, #d1d1d1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.science-page-carousel-slide h4 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  margin: 12px 0;
+  transition: color 0.3s;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: color 0.3s ease
+}
+
+.science-page-carousel-slide:hover h4 {
+  color: #3f78b8; /* Make heading pop on hover */
+}
+
+/* Slide Content Hover Effect */
+.science-page-carousel-slide .content {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.science-page-carousel-slide:hover .content {
+  transform: translateY(-10px);
+  opacity: 0.9;
+}
+
+
+/* Content List Styling */
+.science-behind-page .content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.science-behind-page .content li {
+  margin-left: 20px;
+  font-size: 1em;
+  color: #333;
+  padding: 6px 0;
+  transition: color 0.3s ease;
+}
+
+.science-behind-page .content li::before {
+  content: "•";
+  color: #4a90e2;
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+.science-behind-page .content li a {
+  text-decoration: none;
+  color: #4a90e2;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.science-behind-page .content li a:hover {
+  color: #357abd; /* Subtle hover effect */
+}
+
+
+/* Additional Styles */
+.science-behind-page .content-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  color: #4a90e2;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.science-behind-page span {
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 12px;
+  }
+
+  .category-title, .subcategory-title, .subsub-title {
+    font-size: 1em;
+  }
+
+  .science-page-carousel-slide h4 {
+    font-size: 1.1em;
+  }
+}

@@ -1,0 +1,113 @@
+.category-page {
+  padding: 20px;
+}
+
+.category-page h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.food-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Ensures columns have fixed width */
+}
+
+.food-table th,
+.food-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.food-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Set consistent column widths */
+.food-table th:nth-child(1),
+.food-table td:nth-child(1) {
+  width: 30%;
+}
+
+.food-table th:nth-child(2),
+.food-table td:nth-child(2) {
+  width: 40%;
+}
+
+.food-table th:nth-child(3),
+.food-table td:nth-child(3) {
+  width: 30%;
+}
+
+/* Row hover effect */
+.food-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Information Box Styles */
+.info-box-category {
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #3498db;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  transition: transform 0.2s ease-in-out;
+  width: 80%;
+}
+
+.info-box-category p {
+  margin: 0;
+  line-height: 1.6;
+  
+}
+
+.info-box-category:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Input Styling */
+.category-page input {
+  padding: 12px;
+  font-size: 14px;
+  width: 320px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.category-page input:focus {
+  border: 2px solid #5a5a5a; /* Slightly darker border on focus */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft glow on focus */
+  background-color: #fff;
+  outline:#474747;
+}
+a {
+  color: inherit; /* Inherits the color of the parent element */
+  text-decoration: none; /* Removes the underline */
+}
+
+a:visited {
+  color: inherit; /* Removes the purple color after the link is clicked */
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline; /* Optionally add underline when hovered or focused */
+}

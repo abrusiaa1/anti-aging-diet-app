@@ -1,0 +1,12 @@
+/* src/styles.css */
+.menu-page {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 1.5;
+    line-height: 1.5;
+    color: #292b2c;
+    background:#ffffff repeat;
+    min-height: 100vh; /* Ensures full page coverage!!! */
+  }
+  
