@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/anti-aging-diet-app/static/css/main.14239eea.css",
+    "main.js": "/anti-aging-diet-app/static/js/main.3aa873fc.js",
+    "static/js/453.a6a97343.chunk.js": "/anti-aging-diet-app/static/js/453.a6a97343.chunk.js",
+    "static/media/thumb2.png": "/anti-aging-diet-app/static/media/thumb2.6e9903744d87588e8538.png",
+    "static/media/img5.png": "/anti-aging-diet-app/static/media/img5.b95a112e0b016152fde2.png",
+    "static/media/thumb5.png": "/anti-aging-diet-app/static/media/thumb5.b95a112e0b016152fde2.png",
+    "static/media/img4.png": "/anti-aging-diet-app/static/media/img4.58677c6990e9fdefc297.png",
+    "static/media/thumb4.png": "/anti-aging-diet-app/static/media/thumb4.58677c6990e9fdefc297.png",
+    "static/media/img3.png": "/anti-aging-diet-app/static/media/img3.b9b5a8574c6224efca8a.png",
+    "static/media/thumb3.png": "/anti-aging-diet-app/static/media/thumb3.b9b5a8574c6224efca8a.png",
+    "static/media/img2.png": "/anti-aging-diet-app/static/media/img2.aec6bfbfe3f08ca22bdb.png",
+    "static/media/img1.png": "/anti-aging-diet-app/static/media/img1.96c79ecfb0fde67561a5.png",
+    "static/media/ZenzetaVec21005_generated.jpg": "/anti-aging-diet-app/static/media/ZenzetaVec21005_generated.ffd848181d964c1226ca.jpg",
+    "static/media/thumb1.png": "/anti-aging-diet-app/static/media/thumb1.ea1f6eef0747ba2658af.png",
+    "static/media/slick.svg": "/anti-aging-diet-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/anti-aging-diet-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/anti-aging-diet-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/anti-aging-diet-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/anti-aging-diet-app/index.html",
+    "main.14239eea.css.map": "/anti-aging-diet-app/static/css/main.14239eea.css.map",
+    "main.3aa873fc.js.map": "/anti-aging-diet-app/static/js/main.3aa873fc.js.map",
+    "453.a6a97343.chunk.js.map": "/anti-aging-diet-app/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14239eea.css",
+    "static/js/main.3aa873fc.js"
+  ]
+}
