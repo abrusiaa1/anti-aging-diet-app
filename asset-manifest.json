@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anti-aging-diet-app/static/css/main.14239eea.css",
-    "main.js": "/anti-aging-diet-app/static/js/main.3aa873fc.js",
+    "main.js": "/anti-aging-diet-app/static/js/main.8356084b.js",
     "static/js/453.a6a97343.chunk.js": "/anti-aging-diet-app/static/js/453.a6a97343.chunk.js",
     "static/media/thumb2.png": "/anti-aging-diet-app/static/media/thumb2.6e9903744d87588e8538.png",
     "static/media/img5.png": "/anti-aging-diet-app/static/media/img5.b95a112e0b016152fde2.png",
@@ -20,11 +20,11 @@
     "static/media/slick.woff": "/anti-aging-diet-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/anti-aging-diet-app/index.html",
     "main.14239eea.css.map": "/anti-aging-diet-app/static/css/main.14239eea.css.map",
-    "main.3aa873fc.js.map": "/anti-aging-diet-app/static/js/main.3aa873fc.js.map",
+    "main.8356084b.js.map": "/anti-aging-diet-app/static/js/main.8356084b.js.map",
     "453.a6a97343.chunk.js.map": "/anti-aging-diet-app/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14239eea.css",
-    "static/js/main.3aa873fc.js"
+    "static/js/main.8356084b.js"
   ]
 }
